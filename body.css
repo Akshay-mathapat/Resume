@@ -1,0 +1,276 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #af1919;
+  color: #d31885;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+section p {
+  line-height: 1.5;
+}
+
+section#projects li {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e66465, #9198e5);
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #c74a0b;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0px 2px 5px #ccc;
+  }
+
+  nav {
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.2s ease;
+  }
+
+  nav a:hover {
+    color: #ccc;
+    border-radius: 5px;
+    background-color: #3f3f3f;
+  }
+  nav a.active {
+    background-color: #00bfff;
+    color: #fff;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    line-height: 1.5;
+  }
+  
+  section#projects li {
+    margin-bottom: 10px;
+    
+  }
+
+    /* Add a gradient background to the "About" section */
+  section#about {
+    background: linear-gradient(to bottom, #f9f9f9, #fff);
+    padding: 20px;
+    }
+        
+    /* Add a background image to the "Projects" section */
+    section#projects {
+        background-color: #f2f2f2;
+    }
+
+    /* Add a hover effect to the "Projects" section list items */
+    section#projects li:hover {
+    background-color: #f2f2f2;
+    }
+
+    /* Add a background color to the "Contact" section */
+    section#contact {
+    background-color: #3f3f3f;
+    color: #fff;
+    padding: 20px;
+    }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #00bfff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .resume .func .skills-soft {
+    clear: both;
+    background: $darker-blue;
+    padding: 15px;
+    margin: 15px 0 0;
+  }
+  .resume .func .skills-soft ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .resume .func .skills-soft ul li {
+    position: relative;
+  }
+  .resume .func .skills-soft ul li:hover svg .cbar {
+    stroke: $yellow;
+    stroke-width: 4px;
+  }
+  .resume .func .skills-soft ul li:hover span,
+  .resume .func .skills-soft ul li:hover small {
+    transform: scale(1.2);
+  }
+  .resume .func .skills-soft ul li svg {
+    width: 95%;
+    fill: transparent;
+    transform: rotate(-90deg);
+  }
+  .resume .func .skills-soft ul li svg circle {
+    stroke-width: 1px;
+    stroke: $white;
+  }
+  .resume .func .skills-soft ul li svg .cbar {
+    stroke-width: 3px;
+    stroke: $orange;
+    stroke-linecap: round;
+  }
+  .resume .func .skills-soft ul li span,
+  .resume .func .skills-soft ul li small {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 52%;
+    transition-duration: 0.3s;
+  }
+  .resume .func .skills-soft ul li span {
+    top: 40%;
+  }
+  .resume .func .interests {
+    background: $darker-blue;
+    margin: 15px 0 0;
+    padding: 15px;
+  }
+  .resume .func .interests-items {
+    box-sizing: border-box;
+    padding: 0 0 15px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .resume .func .interests-items div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .resume .func .interests-items div:hover i {
+    transform: scale(1.2);
+  }
+  .resume .func .interests-items div:hover span {
+    color: $yellow;
+    transition-duration: 0.3s;
+  }
+  .resume .func .interests-items div i {
+    font-size: 45px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: $orange;
+    transition-duration: 0.3s;
+  }
+  .resume .func .interests-items div span {
+    display: block;
+  }
